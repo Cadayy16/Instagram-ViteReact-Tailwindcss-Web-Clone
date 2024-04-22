@@ -5,7 +5,7 @@ function Button({ type = "button", children, ...props }) {
         <button
             type={type}
             {...props}
-            className="h-[30px] mt-1 w-full flex items-center justify-center gap-x-2 text-sm bg-brand font-medium text-white rounded disabled:opacity-50">
+            className="h-[30px] px-4 mt-1 w-full flex items-center justify-center gap-x-2.5 text-sm bg-brand font-medium text-white rounded disabled:opacity-50">
             {children}
         </button>
     )

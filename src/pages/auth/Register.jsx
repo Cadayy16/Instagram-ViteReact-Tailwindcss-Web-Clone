@@ -26,9 +26,9 @@ function Register() {
 
         <div className="w-[350px] grid gap-y-3">
             <div className="bg-white border p-[40px] pt-10 pb-6">
-                <a href="#" className="flex justify-center mb-4">
+                <div href="#" className="flex justify-center mb-4">
                     <img className="h-[51px]" src="../src/images/instagram-login.png"></img>
-                </a>
+                </div>
                 <p className="text-[17px] font-semibold text-[#8e8e8e] text-center mb-5">
                     Arkadaşlarının fotoğraf ve videolarını görmek için kaydol.
                 </p>
